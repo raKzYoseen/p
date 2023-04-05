@@ -1,0 +1,68 @@
+Cadastro de produtos (Papelaria)
+
+Entidade: Produtos
+
+Atributos
+
+ID (PK)
+Nome
+Cdg_Estoque
+Nº_em_estoque
+Peso
+Cdg_Produto
+Categoria_produto
+
+
+Cadastro de Funcionario (Escola)
+
+Entidade: Professor
+
+Atributos
+
+Matricula (PK)
+Carteira_de_Trabalho - Unique                  
+Nome         |                   | Endereço
+CPF          |                   | Rua
+Identidade   | >-----__________< | Bairro
+Carga_horaria|                   | Cidade
+salario      |                   | CEP
+Idade        |                   | Nº_Casa
+Banco_Horas  |                   | Complemento
+
+
+Cadastro de fornecedores (Tecido)
+
+Entidade: Produto
+
+Atributos
+
+ID (PK)
+Nome                  |               |Endereço
+Nome_fornecedor       |               |Rua
+Estoque_fornecedor    |               |Bairro
+Metragem_por_pedido   |               |Cidade
+Cdg_Estoque           |>-----________<|Nº_local
+Nº_em_estoque         |               |CEP
+Peso                  |               |Complemento
+Metragem_produto_unico|
+Cdg_Produto           |
+Categoria_produto     |
+
+
+
+Cadastro de departamentos (Empresa)
+
+Entidade: Departamento
+
+Atributos
+
+ID_setor (PK)
+Cargo_func
+Nome
+Qtd_de_func
+Gestor_setor
+Digital_acesso
+Nº_Cracha_func
+Carga_horaria_setor
+Banco_horas_setor
+Verba_setor
