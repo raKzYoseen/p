@@ -57,7 +57,7 @@ def criartabelaDisciplina():
     create table "Disciplinas"(
     "CodDisciplina" int GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     "nome" varchar(255) not null,
-    "CodCurso" int not null,
+    "CodCurso" int not null
     )''')
 
     print("Tabela Disciplinas criada com sucesso!")
@@ -85,4 +85,9 @@ def criartabelaMatricula():
 
     print("Tabela Matriculas criada com sucesso!")
 
+# criartabelaAlunos()
+# criartabelaDisciplina()
+# criartabelaMatricula()
+
+# TESTES EXERCICIO ------------------------------------------------------------------------------------------------------------
 
